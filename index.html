@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+	<link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+
+	<title>Calculadora incrível</title>
+	<link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+	<div class="container">
+		<div class="row text-center justify-content-center">
+			<!--Input box elem1-->
+			<div class="col-12">
+				<input type="number" id="elem-1">
+			</div>
+			<!--Input operation's button-->
+			<div class="col-12">
+				<div class="container operations">
+					<div class="row align-items-center text-center">
+						<div class="col operation">
+							<input id="sum-operation" value="+" type="radio" name="operation"/>
+							<label for="sum-operation">+</label>
+						</div>
+						<div class="col operation">
+							<input id="subtract-operation" value="-" type="radio" name="operation"/>
+							<label for="subtract-operation">-</label>
+						</div>
+						<div class="col operation">
+							<input id="multiply-operation" value="*" type="radio" name="operation"/>
+							<label for="multiply-operation">&times</label>
+						</div>
+						<div class="col operation">
+							<input id="divide-operation" value="/" type="radio" name="operation"/>
+							<label for="divide-operation">&divide</label>
+						</div>
+					</div>
+				</div>
+			</div>	
+			<!--Input box elem2-->	
+			<div class="col-12">
+				<input type="number" id="elem-2">
+			</div>
+			<!--Result button-->
+			<div class="col-12">
+				<button id="calculate-button">=</button>
+			</div>
+			<!--Show the result-->
+			<div class="col-12">
+				<h2 id="result"></h2>
+			</div>
+		</div>
+	</div>
+	<script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,59 @@
+body{
+	background-color: #27ae60;
+	color: white;
+	padding-top: 230px;
+	font-family: 'Varela Round', sans-serif;
+}
+input{
+	width: 250px;
+	height: 40px;
+	margin: 12px 0 12px 0;
+	text-align: center;
+	border-radius: 25px;
+	border: none;
+}
+button{
+	width: 250px;
+	height: 40px;
+	margin-top: 40px;
+	border-radius: 25px;
+	border: none;
+	border: solid white;
+	background-color: #27ae60;
+	color: white;
+}
+button:hover{
+	background-color: #2c3e50;
+	cursor: pointer;
+	transition: .2s;
+
+}
+h2{
+	margin-top: 25px;
+}
+
+input[type="radio"] {
+	display: none;
+}
+label{
+	background: none;
+	border: 2px solid #fff;
+	cursor: pointer;
+	height: 35px;
+	margin: 0;
+	vertical-align: middle;
+	width: 35px;
+}
+input[type="radio"]:checked + label{
+	background-color: #2c3e50;
+}
+input[type="radio"]:hover + label{
+	background-color: #34495e;
+	transition: .1s;
+}
+.operations{
+	width: 180px;
+}
+.operation{
+	padding: 0;
+}
